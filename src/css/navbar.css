@@ -1,0 +1,95 @@
+/* -------------------- Header -------------------- */
+header {
+  background-color: var(--clr-bg-dark);
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* -------------------- MobileNav -------------------- */
+.mobile-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Top row: logo + hamburger */
+.mobile-nav .top-row {
+  display: flex;
+  justify-content: space-between; /* logo left, hamburger right */
+  align-items: center;
+}
+
+/* Nav items list */
+.mobile-nav .nav-items {
+  list-style: none; /* remove bullets */
+  margin: 0;
+  padding: 0;
+  display: none;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 0.5rem;
+  align-items: flex-end; /* right-aligned */
+}
+
+.mobile-nav .nav-items.open {
+  display: flex;
+}
+
+/* Hamburger button */
+.mobile-nav .hamburger {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: var(--clr-text-light);
+  cursor: pointer;
+}
+
+/* -------------------- DesktopNav -------------------- */
+.desktop-nav {
+  display: none; /* hidden on mobile */
+}
+
+.desktop-nav .logo {
+  margin-right: 2rem; /* spacing between logo and links */
+}
+
+.desktop-nav .nav-items {
+  list-style: none; /* remove bullets */
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin: 0;
+  align-items: center;
+}
+
+/* -------------------- Links -------------------- */
+nav a {
+  text-decoration: none;
+  color: var(--clr-text-light);
+  font-weight: 500;
+  padding: 0.25rem 0;
+  border-bottom: 2px solid transparent;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+nav a:hover {
+  color: var(--clr-accent-blue);
+  border-bottom: 2px solid var(--clr-accent-blue);
+}
+
+/* -------------------- Media Queries -------------------- */
+@media (min-width: 768px) {
+  /* Hide mobile nav on desktop */
+  .mobile-nav {
+    display: none;
+  }
+
+  /* Show desktop nav */
+  .desktop-nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}

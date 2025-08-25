@@ -1,0 +1,23 @@
+:root {
+  --clr-bg-dark: hsl(222, 23%, 17%);       /* #20232a */
+  --clr-bg-light: hsl(0, 0%, 96%);         /* #f5f5f5 */
+  --clr-accent-blue: hsl(200, 100%, 71%);  /* #61dafb */
+  --clr-accent-purple: hsl(256, 60%, 71%); /* #a78bfa */
+  --clr-text-light: hsl(0, 0%, 96%);       /* #f5f5f5 */
+  --clr-text-dark: hsl(0, 0%, 20%);        /* #333333 */
+  --clr-border: hsl(222, 13%, 27%);        /* #444950 */
+  --clr-muted: hsl(0, 0%, 60%);            /* #999999 */
+}
+
+
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
