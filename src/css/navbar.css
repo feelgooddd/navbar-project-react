@@ -1,7 +1,5 @@
 /* -------------------- Header -------------------- */
-h5{
-    color:red
-}
+
 header {
   background-color: var(--clr-bg-dark);
   padding: 1rem 2rem;
