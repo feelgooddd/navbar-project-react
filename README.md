@@ -11,7 +11,7 @@ The navbar adapts seamlessly between mobile and desktop screens:
 ---
 
 ## Live Demo
-Not up yet, coming to netlify soon.
+(https://netlify-project-react-ryan-goods.netlify.app/)
 
 ---
 
