@@ -41,4 +41,4 @@ Not up yet, coming to netlify soon.
 ## Getting Started
 1. Clone the repo:  
 ```bash
-git clone https://github.com/yourusername/navbar-project.git
+git clone https://github.com/feelgooddd/navbar-project.git
