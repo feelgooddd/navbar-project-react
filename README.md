@@ -41,4 +41,4 @@ The navbar adapts seamlessly between mobile and desktop screens:
 ## Getting Started
 1. Clone the repo:  
 ```bash
-git clone https://github.com/feelgooddd/navbar-project.git
+git clone https://github.com/feelgooddd/navbar-project-react.git
